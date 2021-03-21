@@ -42,6 +42,14 @@ namespace PromossoOBocciato
                     double somma = voto1 + voto2 + voto3 + voto4;
                     double media = somma / 4;
                     lblMedia.Content = media;
+                    double min1 = Math.Min(voto1, voto2);
+                    double min2 = Math.Min(voto3, voto4);
+                    double min = Math.Min(min1, min2);
+                    double max1 = Math.Max(voto1, voto2);
+                    double max2 = Math.Max(voto3, voto4);
+                    double max = Math.Max(max1, max2);
+                    lblMinimo.Content = min;
+                    lblMassimo.Content = max;
                     if (media > 5)
                         lblEsito.Content = " Promosso";
                     else
@@ -54,7 +62,7 @@ namespace PromossoOBocciato
             }
             catch (Exception ex)
             {
-                // lblEsito.Content = ex.Message; 
+                
                 MessageBox.Show($"{ex.Message}", "Attenzione", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
