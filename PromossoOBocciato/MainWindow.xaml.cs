@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Operazioni;
 
 namespace PromossoOBocciato
 {
@@ -50,6 +51,10 @@ namespace PromossoOBocciato
                     double max = Math.Max(max1, max2);
                     lblMinimo.Content = min;
                     lblMassimo.Content = max;
+                    lblIncidenza1.Content = Gestione.CalcolaIncidenza(voto1, somma);
+                    lblIncidenza2.Content = Gestione.CalcolaIncidenza(voto2, somma);
+                    lblIncidenza3.Content = Gestione.CalcolaIncidenza(voto3, somma);
+                    lblIncidenza4.Content = Gestione.CalcolaIncidenza(voto4, somma);
                     if (media > 5)
                         lblEsito.Content = " Promosso";
                     else

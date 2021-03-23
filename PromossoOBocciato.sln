@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromossoOBocciato", "PromossoOBocciato\PromossoOBocciato.csproj", "{EBDA0E65-FC49-4C67-8983-9A02FBD8C01A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operazioni", "Operazioni\Operazioni.csproj", "{BED67CE6-58BC-4DF8-B2CD-9AA3C9B69B80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EBDA0E65-FC49-4C67-8983-9A02FBD8C01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBDA0E65-FC49-4C67-8983-9A02FBD8C01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBDA0E65-FC49-4C67-8983-9A02FBD8C01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED67CE6-58BC-4DF8-B2CD-9AA3C9B69B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED67CE6-58BC-4DF8-B2CD-9AA3C9B69B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED67CE6-58BC-4DF8-B2CD-9AA3C9B69B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED67CE6-58BC-4DF8-B2CD-9AA3C9B69B80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

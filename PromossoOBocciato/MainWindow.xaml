@@ -33,6 +33,11 @@
         <Label Content="Max" HorizontalAlignment="Left" Margin="472,236,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblMinimo" Content="" HorizontalAlignment="Left" Margin="592,185,0,0" VerticalAlignment="Top" Width="82"/>
         <Label x:Name="lblMassimo" Content="" HorizontalAlignment="Left" Margin="592,235,0,0" VerticalAlignment="Top" Height="27" Width="82"/>
+        <Label Content="Incidenza%" HorizontalAlignment="Left" Margin="352,86,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblIncidenza1" Content="" HorizontalAlignment="Left" Margin="352,151,0,0" VerticalAlignment="Top" Height="29" Width="62"/>
+        <Label x:Name="lblIncidenza2" Content="" HorizontalAlignment="Left" Margin="352,211,0,0" VerticalAlignment="Top" Height="24" Width="62"/>
+        <Label x:Name="lblIncidenza3" Content="" HorizontalAlignment="Left" Margin="352,254,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.662,1.145" Width="62"/>
+        <Label x:Name="lblIncidenza4" Content="" HorizontalAlignment="Left" Margin="352,300,0,0" VerticalAlignment="Top" Width="62"/>
 
     </Grid>
 </Window>
